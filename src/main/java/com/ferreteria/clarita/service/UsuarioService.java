@@ -1,5 +1,7 @@
 package src.main.java.com.ferreteria.clarita.service;
 
-public class UsuarioService {
-    
+import com.ferreteria.clarita.entity.Usuario;
+
+public interface UsuarioService {
+    Usuario buscarPorUsername(String username);
 }
